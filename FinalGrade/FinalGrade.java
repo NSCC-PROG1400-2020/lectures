@@ -75,7 +75,7 @@ public class FinalGrade {
         } else {
             finalGrade =
                     (assignment1 + assignment2 + assignment3 +
-                            assignment4 + assignment5 /* + assignment6 */) / 5;
+                     assignment4 + assignment5) / 5.0f;
         }
         System.out.println("Your final grade is: " + finalGrade);
     }
