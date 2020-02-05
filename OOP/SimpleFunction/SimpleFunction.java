@@ -34,14 +34,11 @@ public class SimpleFunction {
         System.out.println(name);
 
         // passed by reference
-        OOP.SimpleFunction.MyNumber num
-                = new OOP.SimpleFunction.MyNumber();
+        MyNumber num = new MyNumber();
         num.number = 12345;
         MyNumber mynum = modifyMyNumber(num);
         System.out.println("MyNumber = " + mynum.number);
         System.out.println("Original MyNumber = " + num.number);
-
-
 
     }
 
